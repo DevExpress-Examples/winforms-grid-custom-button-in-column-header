@@ -83,6 +83,7 @@ Namespace DXSample
 			Dim column As GridColumn = hitInfo.Column
 			If IsButtonRect(e.Location, column) Then
 				SetButtonState(column, ObjectState.Pressed)
+				DXMouseEventArgs.GetMouseArgs(e).Handled = True
 			End If
 		End Sub
 
