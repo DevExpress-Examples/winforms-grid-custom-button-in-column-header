@@ -74,8 +74,10 @@ namespace DXSample {
             GridHitInfo hitInfo = view.CalcHitInfo(e.Location);
             if(hitInfo.HitTest != GridHitTest.Column) return;
             GridColumn column = hitInfo.Column;
-            if(IsButtonRect(e.Location, column)) 
+            if(IsButtonRect(e.Location, column)) {
                 SetButtonState(column, ObjectState.Pressed);
+                DXMouseEventArgs.GetMouseArgs(e).Handled = true;
+            }
         }
 
         private void SetButtonState(GridColumn column, ObjectState state) {
