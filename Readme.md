@@ -10,7 +10,7 @@ This example handles the [CustomDrawColumnHeader](https://docs.devexpress.com/Wi
 <!-- default file list -->
 ## Files to Look At
 
-* [ColumnHeaderExtender.cs](./CS/ColumnHeaderExtender.cs) (VB: [ColumnHeaderExtender.vb](./VB/ColumnHeaderExtender.vb))
+* [ColumnHeaderExtender.cs](./CS/WindowsApplication3/ColumnHeaderExtender.cs) (VB: [ColumnHeaderExtender.vb](./VB/WindowsApplication3/ColumnHeaderExtender.vb))
 
 <!-- default file list end -->
 
