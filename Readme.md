@@ -19,7 +19,7 @@ void OnCustomDrawColumnHeader(object sender, ColumnHeaderCustomDrawEventArgs e) 
 ```
 
 <!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [ColumnHeaderExtender.cs](./CS/WindowsApplication3/ColumnHeaderExtender.cs) (VB: [ColumnHeaderExtender.vb](./VB/WindowsApplication3/ColumnHeaderExtender.vb))
 
